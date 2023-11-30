@@ -1,0 +1,303 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+header ul li a 
+{
+    text-decoration: none;
+    color:black;
+    padding: 17px;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header ul
+{
+    display: flex;
+    /* align-items: center; */
+}
+
+header ul li 
+{
+    list-style: none;
+    margin-top:5px;
+    /* padding:10px; */
+}
+
+.b1 
+{
+    padding:15px;
+    border:none;
+    background-color: #86c33a;
+    border-radius:30px;
+    width:150px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-left:-20px;
+    display: block;
+}
+
+header 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0px 0px;
+    padding:20px;
+    
+}
+
+img 
+{
+    width:120px;
+}
+
+.material-icons 
+{
+    font-weight: 600;
+    display: none;
+}
+
+.section2 
+{
+    height:60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.712)), url(page-title.jpg);
+    background-size: cover;
+}
+
+.heading1
+{
+    color:white;
+    font-size: 48px;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-bottom:10px;
+}
+
+.heading2
+{
+    color:white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:20px;
+    margin-left:5px;
+    font-weight:600;
+    display: inline;
+}
+
+
+
+.s1 
+{
+    margin-left:10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:20px;
+    margin-left:5px;
+    font-weight:600;
+}
+
+.s2 
+{
+    margin-left:10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:20px;
+    margin-left:5px;
+    font-weight:600;
+}
+
+.section2 
+{
+    display: flex;
+    align-items: center;
+    padding-left:100px;
+}
+
+a 
+{
+    text-decoration: none;
+    color:white;
+}
+
+.heading2:hover a
+{
+    color:#86c33a;
+    cursor:pointer;
+}
+
+.section3
+{
+    margin-top:130px;
+    width:100%; 
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    
+}
+
+.section31 
+{
+    background-image: url(service-page-2.png);
+    background-size: cover;
+    /* background-position: center; */
+    height:100vh;
+}
+
+.heading3 
+{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #818385;
+    font-weight: 500;
+}
+
+.heading4 
+{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:48px;
+}
+
+.mainbox 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px 100px;
+    position: relative;
+    z-index: 1;
+}
+.box 
+{
+    width:250px;
+    height:320px;
+    z-index: 1;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    margin-left:15px;
+    box-shadow: 0 15px 39px rgba(8,18,109,.1);
+    background-color: white;
+    /* padding:0px 10px; */
+    transition: all 0.5s;
+    margin:10px;
+}
+
+.box:hover
+{
+    background-color: rgb(20, 20, 20);
+    color:white;
+}
+
+.box:hover i
+{
+    color:white;
+}
+
+.p2
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.circle 
+{
+    width:100px;
+    height:100px;
+    border-radius: 130px 120px 160px 130px;
+    border:1px solid black;
+    background: rgba(147 203 79 / 21%);
+    border: 2px solid #86c33a;
+    animation-name: water-wave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.fa-diamond
+{
+    text-align: center;
+    padding:29px 28px;
+    color:#86c33a;
+}
+
+
+.fa-bar-chart 
+{
+    padding:29px 28px;
+    color:#86c33a;
+}
+
+.fa-lightbulb-o 
+{
+    padding:29px 34px;
+    color:#86c33a;
+}
+
+.fa-tachometer 
+{
+    padding:26px 30px;
+    color:#86c33a;
+}
+
+.heading 
+{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin:0px 0px 20px;
+}
+
+.heading:hover
+{
+    color:white;
+}
+
+
+@media screen and (min-width:0px) and (max-width:425px) 
+{
+    header 
+    {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    header ul li a 
+    {
+        display: flex;
+        justify-content: space-between;
+        display:none;
+        margin:0px 0px;
+    }    
+
+    .b1 
+    {
+        display: none;
+    }
+
+    .mainbox 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin:0px 5px;
+        justify-content: center;
+    }
+
+    .box 
+    {
+        margin-top:15px;
+        width:250px;
+        height:320px;
+    }
+}
